@@ -11,7 +11,7 @@ API_ID = 20046177
 API_HASH = "83d15f2956be4b4b927acded8bdf780f"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "6735284636:AAFq1l2h6TBthisVHz6YBbCpjJ1qwJLfgW0"
+BOT_TOKEN = "BOT_TOKEN"
 # -------------------------------------------------------
 OWNER_USERNAME = "zeni_og"
 # --------------------------------------------------------
@@ -44,11 +44,11 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/paradox-zenu/Shweta.git",
+    "https://github.com/paradox-zenu/nikl",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "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", 
+    None 
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hxh_network")
